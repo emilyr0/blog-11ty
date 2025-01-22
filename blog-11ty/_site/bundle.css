@@ -9,7 +9,7 @@ body {
 
 /* Header styling */
 header {
-    background-color: #ffd6c8;
+    background-color: #6CACE4;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     color: rgb(0, 0, 0);
     padding: .2rem;
@@ -23,7 +23,7 @@ header {
 /* Blog post titles */
 h2 a {
     text-decoration: none;
-    color: #ffd2ad;
+    color: #6CACE4;
     font-family: "libre-franklin", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -62,7 +62,7 @@ li {
 }
 
 button {
-    background-color: #ffd2ad;
+    background-color: #6CACE4;
     color: rgb(0, 0, 0);
     font-size: 16px;
     padding: 10px 20px;
@@ -86,7 +86,7 @@ button {
 .card {
     width: 250px; 
     height: 350px;
-    background-color: #ffd6c8;
+    background-color: #6CACE4;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
