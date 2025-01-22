@@ -1,17 +1,18 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/bundle.css">
-		<title>{{ title | default: "Emily's Blog" }}</title>
-	</head>
-	<body>
-		<header>
-			<h1>{{ title | default: "Emily's Blog" }}</h1>
-		</header>
-		<main>
-			{{ content }}
-		</main>
-	</body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/bundle.css">
+  <title>{{ site.title | default: "Emily's Blog" }}</title>
+</head>
+<body>
+  <header>
+    <h1>{{ site.title | default: "Emily's Blog" }}</h1>
+  </header>
+  
+  <main>
+    {{ content }}
+  </main>
+</body>
 </html>

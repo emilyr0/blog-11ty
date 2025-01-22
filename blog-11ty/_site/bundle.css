@@ -37,14 +37,23 @@ h2 a:hover {
 p {
     line-height: 1.6;
     margin: 0.5rem 0;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
-.post-text {
-    padding: 3%;
+h3{
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
-.post-headers {
-    font-size: 1.7em;
+li {
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+.intro-text{
+    padding-top: 2%;
 }
 
 /* Styling for the back button */
@@ -92,7 +101,7 @@ button {
 .card h2 a {
     text-decoration: none;
     color: #333;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
